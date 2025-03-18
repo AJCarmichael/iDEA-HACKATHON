@@ -10,7 +10,7 @@ import SecureInternetBanking from './components/SecureInternetBanking';
 import Loans from './components/Loans';
 import SavingsAndDeposits from './components/SavingsAndDeposits';
 import FraudDetection from './components/FraudDetection';
-import LiveFeed from './components/LiveFeed';
+import TransactionDetails from './components/TransactionDetails';
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
         <Route path="/loans" element={<Loans />} />
         <Route path="/savingsanddeposits" element={<SavingsAndDeposits />} />
         <Route path="/frauddetection" element={<FraudDetection />} />
-        <Route path="/livefeed" element={<LiveFeed />} />
+        <Route path="/transactiondetails" element={<TransactionDetails />} />
       </Routes>
     </Router>
   );
