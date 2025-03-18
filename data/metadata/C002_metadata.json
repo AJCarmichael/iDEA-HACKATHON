@@ -1,0 +1,26 @@
+{
+  "Customer ID": "C002",
+  "Profile Type": "Student",
+  "Average Monthly Spending": "13195",
+  "Average Monthly Income": "6250",
+  "Spending Categories": "Textbook purchase, Bus fare, Notebook purchase, Exam fees payment, Train ticket home, Coffee, College semester fees, Bus fare to college, Dinner with friends, Train ticket, Textbooks purchase, Lunch at food stall, Grocery shopping, Snacks, Lunch at canteen, Monthly room rent, Food delivery, Lunch with friends, Stationery purchase, Metro card recharge",
+  "Income Sources": "Internship payment, Prize for essay competition, Pocket money from relatives, Pocket money from parents, Internship stipend, Prize for debate competition",
+  "Cash Usage": "1.67%",
+  "Recurring Payments": "79800 monthly",
+  "Risk Indicators": "Low",
+  "Behavioral Patterns": "Frequent small transactions",
+  "2025-03-18T02:59:04.504407": {
+    "Gemini Insights": "Error retrieving insights"
+  },
+  "2025-03-18T03:09:11.973481": {
+    "Gemini Insights": "Based on the provided transaction metadata, here's an inference of the customer's financial profile, behavior, and potential fraud risk:\n\n**Financial Profile:**\n\n* **Low Income, High Spending:** The customer (C002), identified as a student, has a significant discrepancy between their average monthly income (6250) and spending (13195). This suggests they are consistently spending more than they earn.\n* **Reliance on Multiple Income Streams:** Their income comes from various sources (internships, prizes, pocket money), indicating a dependence on multiple small income streams rather than a single, stable source. This is typical for students.\n* **High Recurring Payments:**  The substantial recurring payment of 79800 monthly is a significant red flag. Without knowing what this payment is for, it's impossible to definitively assess its legitimacy, but it drastically impacts their already negative cash flow. This could be tuition, rent, or a loan repayment; further investigation is needed.\n* **Low Cash Usage:** The low cash usage (1.67%) suggests a preference for digital transactions.\n\n**Behavioral Patterns:**\n\n* **Typical Student Spending:** The spending categories align with a student's lifestyle: education-related expenses (textbooks, exam fees, college fees), transportation (bus, train), food (lunch, dinner, snacks, grocery), and entertainment.  The frequent small transactions further support this.\n* **Potential Overspending:**  The high spending relative to income indicates a potential overspending habit or reliance on borrowing/debt.\n\n**Potential Fraud Risk:**\n\n* **Low Risk Indicator:** The metadata explicitly states \"Risk Indicators: Low\".  However, this should be treated with caution, as the underlying reasons for this low assessment are not provided.\n* **High Spending vs. Income:** The significant discrepancy between income and spending is a potential red flag, although not necessarily indicative of fraud. It might point to unsustainable financial habits or potential reliance on undisclosed income sources.  This warrants further investigation.\n* **Unidentified Recurring Payment:** The large recurring payment needs investigation.  It could be legitimate (e.g., student loan), but it could also be fraudulent (e.g., subscription fraud).\n* **Data Gaps:** The \"Error retrieving insights\" from Gemini Insights prevents a complete assessment.  This missing information could be crucial in determining the true risk level.\n\n\n**Overall Assessment:**\n\nThe customer's profile exhibits characteristics typical of a student, but the high spending relative to income and the unexplained high recurring payment are significant concerns. While the system currently flags low risk, further investigation is crucial, focusing on the nature of the recurring payment and a deeper dive into transaction details beyond the provided summary. The missing Gemini Insights data is a major limitation to a complete and accurate risk assessment."
+  },
+  "Mule Analysis": {
+    "2025-03-18 07:24:57": {
+      "mule_characteristics_detected": "No",
+      "details": "```json\n{\n  \"mule_characteristics_detected\": \"No\",\n  \"details\": \"The transactions show a student's typical spending pattern.  Amounts are relatively small and consistent with everyday expenses such as college fees, food, transport, rent, and books. There are no unusually large transactions, no frequent transfers to unrelated accounts, and no evidence of rapid fund movement. While one transaction involved cash (bus fare), it is a small amount and within the context of normal student behavior.\",\n  \"severity\": \"Low\",\n  \"send_to_compliance_team\": \"No\"\n}\n```\n",
+      "severity": "N/A",
+      "send_to_compliance_team": "No"
+    }
+  }
+}

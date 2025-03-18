@@ -1,0 +1,101 @@
+Transaction ID,Account Number,Date,Time,Amount (INR),Transaction Type,Recipient Account,Recipient Bank,Recipient Country,Description,Cash Indicator,Customer ID,Account Creation Date,is_fraud
+T001,1234567890,2024-09-17,09:00,15000,Debit,9876543210,State Bank of India,India,College semester fees,No,C001,2024-08-15,1
+T002,1234567890,2024-09-18,12:30,250,Debit,4567891230,HDFC Bank,India,Lunch at campus canteen,No,C001,2024-08-15,0
+T003,1234567890,2024-09-19,08:45,120,Debit,N/A,N/A,India,Bus fare to college,Yes,C001,2024-08-15,0
+T004,1234567890,2024-09-20,14:15,5000,Credit,7890123456,Axis Bank,India,Pocket money from parents,No,C001,2024-08-15,1
+T005,1234567890,2024-09-25,17:00,5000,Debit,7890123456,Axis Bank,India,Monthly hostel rent,No,C001,2024-08-15,0
+T006,1234567890,2024-10-05,12:00,8000,Credit,9876543210,State Bank of India,India,Internship stipend,No,C001,2024-08-15,0
+T007,1234567890,2024-10-07,08:15,120,Debit,N/A,N/A,India,Bus fare to college,Yes,C001,2024-08-15,1
+T008,1234567890,2024-10-10,14:00,750,Debit,5678901234,ICICI Bank,India,Grocery shopping,No,C001,2024-08-15,0
+T009,1234567890,2024-11-01,09:30,12000,Debit,9876543210,State Bank of India,India,Exam fees payment,No,C001,2024-08-15,0
+T010,1234567890,2024-11-05,08:00,1500,Credit,5678901234,ICICI Bank,India,Prize for quiz competition,No,C001,2024-08-15,1
+T011,1234567890,2024-12-03,08:30,120,Debit,N/A,N/A,India,Bus fare,Yes,C001,2024-08-15,0
+T012,1234567890,2025-01-02,10:00,600,Debit,0123456789,Bank of Baroda,India,Stationery purchase,No,C001,2024-08-15,0
+T101,2345678901,2024-09-17,10:00,14000,Debit,8765432109,State Bank of India,India,College semester fees,No,C002,2024-07-20,0
+T102,2345678901,2024-09-18,13:00,200,Debit,5678901234,ICICI Bank,India,Lunch at food stall,No,C002,2024-07-20,0
+T103,2345678901,2024-09-19,07:30,100,Debit,N/A,N/A,India,Bus fare to college,Yes,C002,2024-07-20,0
+T104,2345678901,2024-09-21,15:00,4000,Credit,6789012345,HDFC Bank,India,Pocket money from parents,No,C002,2024-07-20,0
+T105,2345678901,2024-09-25,16:30,4800,Debit,8901234567,Axis Bank,India,Monthly room rent,No,C002,2024-07-20,0
+T106,2345678901,2024-10-06,13:15,6500,Credit,5678901234,ICICI Bank,India,Internship stipend,No,C002,2024-07-20,0
+T107,2345678901,2024-10-08,07:45,100,Debit,N/A,N/A,India,Bus fare,Yes,C002,2024-07-20,0
+T108,2345678901,2024-10-12,15:30,850,Debit,6789012345,HDFC Bank,India,Grocery shopping,No,C002,2024-07-20,0
+T109,2345678901,2024-11-01,10:15,11000,Debit,8765432109,State Bank of India,India,Exam fees payment,No,C002,2024-07-20,0
+T110,2345678901,2024-11-15,18:30,5500,Credit,0123456789,Punjab National Bank,India,Internship payment,No,C002,2024-07-20,0
+T111,2345678901,2024-12-04,07:30,100,Debit,N/A,N/A,India,Bus fare,Yes,C002,2024-07-20,0
+T112,2345678901,2025-01-03,10:00,600,Debit,1234567890,Bank of Baroda,India,Stationery purchase,No,C002,2024-07-20,0
+T201,3456789012,2024-09-17,10:00,60000,Debit,9876543210,State Bank of India,India,Payment to supplier,No,C003,2023-04-01,0
+T202,3456789012,2024-09-18,14:00,90000,Credit,4567891230,HDFC Bank,India,Client payment,No,C003,2023-04-01,0
+T203,3456789012,2024-09-20,09:00,2000,Debit,N/A,N/A,India,Taxi fare,Yes,C003,2023-04-01,0
+T204,3456789012,2024-09-22,12:00,15000,Debit,5678901234,ICICI Bank,India,Office equipment,No,C003,2023-04-01,0
+T205,3456789012,2024-09-25,15:00,35000,Debit,7890123456,Axis Bank,India,Monthly warehouse rent,No,C003,2023-04-01,0
+T206,3456789012,2024-09-28,11:30,100000,Credit,8901234567,Kotak Mahindra Bank,India,Revenue from sales,No,C003,2023-04-01,0
+T207,3456789012,2024-10-01,13:00,8000,Debit,9012345678,Punjab National Bank,India,Marketing materials,No,C003,2023-04-01,0
+T208,3456789012,2024-10-03,15:00,50000,Credit,0123456789,Bank of Baroda,India,Consulting fee,No,C003,2023-04-01,0
+T209,3456789012,2024-11-01,11:00,70000,Debit,1234567890,Yes Bank,India,Inventory purchase,No,C003,2023-04-01,0
+T210,3456789012,2024-11-07,14:00,95000,Credit,4567891230,HDFC Bank,India,Client payment,No,C003,2023-04-01,0
+T211,3456789012,2024-12-05,12:00,3000,Debit,N/A,N/A,India,Business lunch,Yes,C003,2023-04-01,0
+T212,3456789012,2025-01-05,13:00,85000,Credit,3456789012,State Bank of India,India,Revenue from bulk order,No,C003,2023-04-01,0
+T301,4567890123,2024-09-17,09:30,65000,Debit,9876543210,State Bank of India,India,Payment to supplier for electronics,No,C004,2023-05-10,1
+T302,4567890123,2024-09-18,13:00,95000,Credit,4567891230,HDFC Bank,India,Revenue from retail sales,No,C004,2023-05-10,0
+T303,4567890123,2024-09-20,08:45,3000,Debit,N/A,N/A,India,Taxi fare for trade show,Yes,C004,2023-05-10,1
+T304,4567890123,2024-09-22,11:15,18000,Debit,5678901234,ICICI Bank,India,New computer systems for office,No,C004,2023-05-10,0
+T305,4567890123,2024-09-25,14:00,45000,Debit,7890123456,Axis Bank,India,Monthly rent for showroom,No,C004,2023-05-10,0
+T306,4567890123,2024-09-28,12:30,130000,Credit,8901234567,Kotak Mahindra Bank,India,Payment from wholesale client,No,C004,2023-05-10,1
+T307,4567890123,2024-10-01,10:00,55000,Credit,0123456789,Bank of Baroda,India,Consulting fee from client,No,C004,2023-05-10,0
+T308,4567890123,2024-10-05,13:00,5000,Debit,N/A,N/A,India,Lunch with potential investor,Yes,C004,2023-05-10,0
+T309,4567890123,2024-11-07,15:00,105000,Credit,4567891230,HDFC Bank,India,Revenue from product sales,No,C004,2023-05-10,1
+T310,4567890123,2024-11-10,13:15,45000,Debit,7890123456,Axis Bank,India,Monthly rent for showroom,No,C004,2023-05-10,0
+T311,4567890123,2024-12-05,12:15,80000,Credit,3456789012,HDFC Bank,India,Client payment for custom order,No,C004,2023-05-10,0
+T312,4567890123,2025-01-05,12:00,100000,Credit,1234567890,State Bank of India,India,Revenue from online platform,No,C004,2023-05-10,0
+T401,5678901234,2024-09-17,09:30,70000,Debit,9876543210,State Bank of India,India,Payment to supplier for electronics,No,C005,2023-06-15,0
+T402,5678901234,2024-09-18,13:00,100000,Credit,4567891230,HDFC Bank,India,Revenue from retail sales,No,C005,2023-06-15,0
+T403,5678901234,2024-09-20,08:45,50000,Debit,N/A,N/A,India,Cash withdrawal for business expenses,Yes,C005,2023-06-15,0
+T404,5678901234,2024-09-22,11:15,20000,Debit,5678901234,ICICI Bank,India,New computer systems for office,No,C005,2023-06-15,0
+T405,5678901234,2024-09-25,14:00,40000,Debit,7890123456,Axis Bank,India,Monthly rent for showroom,No,C005,2023-06-15,0
+T406,5678901234,2024-09-28,12:30,120000,Credit,8901234567,Kotak Mahindra Bank,India,Payment from wholesale client,No,C005,2023-06-15,0
+T407,5678901234,2024-10-01,10:00,90000,Credit,0123456789,Bank of Baroda,India,Consulting fee (unverified source),No,C005,2023-06-15,0
+T408,5678901234,2024-10-05,13:00,4500,Debit,N/A,N/A,India,Lunch with potential investor,Yes,C005,2023-06-15,0
+T409,5678901234,2024-11-07,15:00,110000,Credit,4567891230,HDFC Bank,India,Revenue from product sales,No,C005,2023-06-15,0
+T410,5678901234,2024-11-10,13:15,40000,Debit,7890123456,Axis Bank,India,Monthly rent for showroom,No,C005,2023-06-15,0
+T411,5678901234,2024-12-05,12:15,85000,Credit,3456789012,HDFC Bank,India,Client payment for custom order,No,C005,2023-06-15,0
+T412,5678901234,2025-01-05,12:00,110000,Credit,1234567890,State Bank of India,India,Revenue from online platform,No,C005,2023-06-15,0
+T501,1234567890,2024-09-21,10:00,60000,Debit,N/A,N/A,India,Cash withdrawal for personal use,Yes,C001,2024-08-15,1
+T502,1234567890,2024-09-23,14:30,150000,Credit,1112223334,Unknown Bank,India,Consulting fee,No,C001,2024-08-15,1
+T503,1234567890,2024-09-24,09:15,80000,Debit,2223334445,Foreign Bank,India,Transfer to associate,No,C001,2024-08-15,1
+T504,1234567890,2024-10-02,11:00,55000,Debit,N/A,N/A,India,Cash payment for services,Yes,C001,2024-08-15,1
+T505,1234567890,2024-10-04,13:45,120000,Credit,3334445556,Unknown Bank,India,Unverified payment,No,C001,2024-08-15,1
+T506,1234567890,2024-11-03,15:00,70000,Debit,N/A,N/A,India,Cash withdrawal,Yes,C001,2024-08-15,1
+T507,1234567890,2024-12-01,12:00,110000,Credit,4445556667,Foreign Bank,India,Consulting fee,No,C001,2024-08-15,1
+T508,1234567890,2025-01-10,14:00,90000,Debit,5556667778,Unknown Bank,India,Transfer to third party,No,C001,2024-08-15,1
+T509,2345678901,2024-09-23,09:30,75000,Debit,N/A,N/A,India,Cash withdrawal for expenses,Yes,C002,2024-07-20,1
+T510,2345678901,2024-09-24,13:00,130000,Credit,6667778889,Unknown Bank,India,Unverified stipend,No,C002,2024-07-20,1
+T511,2345678901,2024-10-01,11:15,60000,Debit,N/A,N/A,India,Cash payment to friend,Yes,C002,2024-07-20,1
+T512,2345678901,2024-10-03,15:30,140000,Credit,7778889990,Foreign Bank,India,Consulting fee,No,C002,2024-07-20,1
+T513,2345678901,2024-11-02,10:00,85000,Debit,8889990001,Unknown Bank,India,Transfer to associate,No,C002,2024-07-20,1
+T514,2345678901,2024-11-04,14:00,65000,Debit,N/A,N/A,India,Cash withdrawal,Yes,C002,2024-07-20,1
+T515,2345678901,2024-12-02,12:30,125000,Credit,9990001112,Foreign Bank,India,Unverified payment,No,C002,2024-07-20,1
+T516,2345678901,2025-01-07,13:00,95000,Debit,0001112223,Unknown Bank,India,Transfer to third party,No,C002,2024-07-20,1
+T517,3456789012,2024-09-23,10:30,100000,Debit,N/A,N/A,India,Cash withdrawal for operations,Yes,C003,2023-04-01,1
+T518,3456789012,2024-09-24,14:00,200000,Credit,1112223334,Unknown Bank,India,Consulting fee,No,C003,2023-04-01,1
+T519,3456789012,2024-10-02,09:00,120000,Debit,2223334445,Foreign Bank,India,Transfer to supplier,No,C003,2023-04-01,1
+T520,3456789012,2024-10-04,13:15,80000,Debit,N/A,N/A,India,Cash payment for services,Yes,C003,2023-04-01,1
+T521,3456789012,2024-11-03,11:00,150000,Credit,3334445556,Unknown Bank,India,Unverified revenue,No,C003,2023-04-01,1
+T522,3456789012,2024-11-05,15:00,90000,Debit,N/A,N/A,India,Cash withdrawal,Yes,C003,2023-04-01,1
+T523,3456789012,2024-12-01,12:00,180000,Credit,4445556667,Foreign Bank,India,Consulting fee,No,C003,2023-04-01,1
+T524,3456789012,2025-01-10,14:30,110000,Debit,5556667778,Unknown Bank,India,Transfer to associate,No,C003,2023-04-01,1
+T525,4567890123,2024-09-23,09:00,120000,Debit,N/A,N/A,India,Cash withdrawal for business,Yes,C004,2023-05-10,1
+T526,4567890123,2024-09-24,13:30,250000,Credit,6667778889,Unknown Bank,India,Unverified payment,No,C004,2023-05-10,1
+T527,4567890123,2024-10-02,10:00,130000,Debit,7778889990,Foreign Bank,India,Transfer to third party,No,C004,2023-05-10,1
+T528,4567890123,2024-10-04,14:00,90000,Debit,N/A,N/A,India,Cash payment for consulting,Yes,C004,2023-05-10,1
+T529,4567890123,2024-11-03,11:30,200000,Credit,8889990001,Unknown Bank,India,Consulting fee,No,C004,2023-05-10,1
+T530,4567890123,2024-11-05,15:15,100000,Debit,N/A,N/A,India,Cash withdrawal,Yes,C004,2023-05-10,1
+T531,4567890123,2024-12-01,12:45,220000,Credit,9990001112,Foreign Bank,India,Unverified revenue,No,C004,2023-05-10,1
+T532,4567890123,2025-01-10,13:00,140000,Debit,0001112223,Unknown Bank,India,Transfer to associate,No,C004,2023-05-10,1
+T533,5678901234,2024-09-23,10:00,150000,Debit,N/A,N/A,India,Cash withdrawal for operations,Yes,C005,2023-06-15,0
+T534,5678901234,2024-09-24,14:00,300000,Credit,1112223334,Unknown Bank,India,Consulting fee,No,C005,2023-06-15,1
+T535,5678901234,2024-10-02,09:30,160000,Debit,2223334445,Foreign Bank,India,Transfer to third party,No,C005,2023-06-15,0
+T536,5678901234,2024-10-04,13:00,110000,Debit,N/A,N/A,India,Cash payment for services,Yes,C005,2023-06-15,1
+T537,5678901234,2024-11-03,11:00,250000,Credit,3334445556,Unknown Bank,India,Unverified payment,No,C005,2023-06-15,0
+T538,5678901234,2024-11-05,15:00,130000,Debit,N/A,N/A,India,Cash withdrawal,Yes,C005,2023-06-15,1
+T539,5678901234,2024-12-01,12:15,280000,Credit,4445556667,Foreign Bank,India,Consulting fee,No,C005,2023-06-15,0
+T540,5678901234,2025-01-10,14:00,170000,Debit,5556667778,Unknown Bank,India,Transfer to associate,No,C005,2023-06-15,1

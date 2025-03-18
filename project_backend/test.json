@@ -1,0 +1,30 @@
+[
+    {
+        "Transaction_ID": "TXN1117",
+        "Account_Number": 783035426,
+        "Date_Time": "2025-01-20 21:43:17",
+        "Amount_INR": 13257,
+        "Transaction_Type": "Withdrawal",
+        "Recipient_Account": "N/A",
+        "Recipient_Bank": "ICICI Bank",
+        "Recipient_Country": "India",
+        "Description": "Rent Payment",
+        "Cash_Indicator": "Yes",
+        "Customer_ID": "CUST128",
+        "Account_Creation_Date": "2023-08-11 05:51:11"
+    },
+    {
+        "Transaction_ID": "TXN1369",
+        "Account_Number": 65156706,
+        "Date_Time": "2025-02-07 15:37:56",
+        "Amount_INR": 1240819,
+        "Transaction_Type": "Transfer",
+        "Recipient_Account": "N/A",
+        "Recipient_Bank": "Bank of America",
+        "Recipient_Country": "India",
+        "Description": "Payment",
+        "Cash_Indicator": "Yes",
+        "Customer_ID": "CUST418",
+        "Account_Creation_Date": "2025-02-15 11:15:36"
+    }
+]

@@ -1,0 +1,26 @@
+{
+  "Customer ID": "C001",
+  "Profile Type": "Student",
+  "Average Monthly Spending": "13843",
+  "Average Monthly Income": "7333",
+  "Spending Categories": "Textbooks purchase, Stationery purchase, Train ticket home, Coffee and snacks, Snacks and tea, Bus fare, Metro card recharge, Dinner outing, Dinner with roommates, Lunch with friends, Reference book purchase, Train ticket, Stationery and notebooks, Lunch at campus canteen, Lab manual purchase, Bus fare to college, Lunch at canteen, Food delivery, College semester fees, Monthly hostel rent, Exam fees payment, Grocery shopping",
+  "Income Sources": "Prize for quiz competition, Prize for hackathon, Internship payment, Pocket money from uncle, Pocket money from parents, Internship stipend, Prize for coding competition",
+  "Cash Usage": "1.72%",
+  "Recurring Payments": "85500 monthly",
+  "Risk Indicators": "Low",
+  "Behavioral Patterns": "Frequent small transactions",
+  "2025-03-18T02:59:06.244774": {
+    "Gemini Insights": "Error retrieving insights"
+  },
+  "2025-03-18T03:09:17.575899": {
+    "Gemini Insights": "Based on the provided transaction metadata, here's an inference of the customer's financial profile, behavior, and potential fraud risk:\n\n**Financial Profile:**\n\n* **Income:** Relatively low average monthly income ($7333) compared to spending.  The income sources suggest a reliance on sporadic income from prizes and internships, supplemented by parental/familial support (pocket money). This income stream is likely unstable.\n* **Spending:** Very high average monthly spending ($13843) significantly exceeding income. This suggests a substantial reliance on credit or loans.  Spending is heavily focused on education (textbooks, stationery, exam fees, lab manuals) and daily living expenses (food, transportation). The high monthly recurring payment of $85500 is a significant outlier and needs further investigation.  It's possible this is a loan repayment, a large educational expense, or an error in the data.\n* **Debt:** High likelihood of significant debt given the spending exceeding income.\n* **Savings:**  Likely very low or non-existent given the spending habits.\n\n\n**Financial Behavior:**\n\n* **Spending Habits:** The customer exhibits frequent small transactions, indicating regular daily expenses.  Spending is concentrated on education and living expenses consistent with a student lifestyle.\n* **Cash Usage:** Low cash usage (1.72%) suggests a preference for digital transactions.\n* **Recurring Payments:** The extremely high recurring payment ($85500) is a major anomaly and requires clarification. This significantly impacts the overall assessment.\n\n\n**Potential Fraud Risk:**\n\n* **Risk Indicator:**  The metadata explicitly states \"Risk Indicators: Low\". However, this should be treated with caution given the significant discrepancy between income and expenditure.\n* **Inconsistencies:** The major inconsistency is the high recurring payment compared to income and spending patterns.  This requires further investigation to determine if it's legitimate or indicative of fraudulent activity (e.g., a loan taken out for fraudulent purposes, or a data entry error).\n* **Overall Assessment:** Despite the \"Low\" risk indicator, the significant discrepancy between income and expenditure raises a red flag.  Further investigation is crucial to understand the source of the high recurring payment and the overall financial sustainability of the customer.  The low cash usage is not necessarily indicative of fraud but is consistent with current consumer trends.\n\n\n**Conclusion:**\n\nThe customer's financial profile points to a student with potentially unsustainable spending habits, likely relying heavily on debt or external financial support. The extremely high recurring payment is the most concerning aspect and requires immediate investigation to assess the true fraud risk.  The \"Low\" risk indicator in the data should be reevaluated considering the identified discrepancies.  A manual review of the transaction history is strongly recommended to validate the $85500 recurring payment."
+  },
+  "Mule Analysis": {
+    "2025-03-18 07:24:27": {
+      "mule_characteristics_detected": "No",
+      "details": "```json\n{\n  \"mule_characteristics_detected\": \"No\",\n  \"details\": \"The transactions show a typical spending pattern for a student (C001).  Amounts are relatively small and consistent with everyday expenses like college fees, food, transport, rent, and books. While there is one cash transaction (T003), the amount is insignificant in the context of the overall activity. No large or unusual transactions are observed, nor is there evidence of rapid fund movement to unrelated accounts.\",\n  \"severity\": \"Low\",\n  \"send_to_compliance_team\": \"No\"\n}\n```\n",
+      "severity": "N/A",
+      "send_to_compliance_team": "No"
+    }
+  }
+}

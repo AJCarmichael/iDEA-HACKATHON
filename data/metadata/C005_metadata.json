@@ -1,0 +1,20 @@
+{
+  "Customer ID": "C005",
+  "Profile Type": "Professional",
+  "Average Monthly Spending": "280750",
+  "Average Monthly Income": "328333",
+  "Spending Categories": "Cash withdrawal for business needs, Business dinner with team, Cash withdrawal for business expenses, Payment to supplier for components, Transfer to associate (unverified), Cash payment to consultant, Office cleaning service, Payment for shop fittings, Payment to supplier for goods, Hotel stay for industry conference, New computer systems for office, Monthly rent for showroom, Payment for new inventory, Lunch with potential investor, Cash withdrawal for operations, Payment to supplier for stock, Payment to supplier for packaging, Trade show booth rental, Taxi fare for warehouse visit, Cash withdrawal for travel, Transfer to third party (vague), Payment to supplier for electronics, Payment for imported goods, Purchase of display units, New machinery for production",
+  "Income Sources": "Revenue from product sales, Revenue from major client, Payment for bulk delivery, Revenue from export order, Revenue from new product line, Payment for service contract, Revenue from holiday sales, Advance for product launch, Client payment for custom order, Revenue from online platform, Payment from new retailer, Payment from wholesale client, Client payment for services, Payment for online sales (offshore), Consulting fee (unverified source), Revenue from bulk order, Payment for annual contract, Revenue from retail sales",
+  "Cash Usage": "28.32%",
+  "Recurring Payments": "305000 monthly",
+  "Risk Indicators": "Medium",
+  "Behavioral Patterns": "Occasional large transactions",
+  "Mule Analysis": {
+    "2025-03-18 07:36:44": {
+        "mule_characteristics_detected": "Yes",
+        "details": "High cash usage detected in T403 (₹50,000 cash withdrawal) and T407 (₹60,000 cash payment), unusual for a legitimate business. Rapid fund movement suggested by T408 (₹90,000 credit) followed by T409 (₹85,000 debit) and T412 (₹70,000 to unknown bank). These patterns deviate from typical business behavior.",
+        "severity": "High",
+        "send_to_compliance_team": "Yes"
+      }
+  }
+}

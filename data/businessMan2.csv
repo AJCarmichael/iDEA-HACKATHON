@@ -1,0 +1,51 @@
+Transaction ID,Account Number,Date,Time,Amount (INR),Transaction Type,Recipient Account,Recipient Bank,Recipient Country,Description,Cash Indicator,Customer ID,Account Creation Date
+T301,4567890123,2024-09-17,09:30,65000,Debit,9876543210,State Bank of India,India,Payment to supplier for electronics,No,C004,2023-05-10
+T302,4567890123,2024-09-18,13:00,95000,Credit,4567891230,HDFC Bank,India,Revenue from retail sales,No,C004,2023-05-10
+T303,4567890123,2024-09-20,08:45,3000,Debit,N/A,N/A,India,Taxi fare for trade show,Yes,C004,2023-05-10
+T304,4567890123,2024-09-22,11:15,18000,Debit,5678901234,ICICI Bank,India,New computer systems for office,No,C004,2023-05-10
+T305,4567890123,2024-09-25,14:00,45000,Debit,7890123456,Axis Bank,India,Monthly rent for showroom,No,C004,2023-05-10
+T306,4567890123,2024-09-28,12:30,130000,Credit,8901234567,Kotak Mahindra Bank,India,Payment from wholesale client,No,C004,2023-05-10
+T307,4567890123,2024-09-30,15:45,10000,Debit,9012345678,Punjab National Bank,India,Printing business cards and flyers,No,C004,2023-05-10
+T308,4567890123,2024-10-01,10:00,55000,Credit,0123456789,Bank of Baroda,India,Consulting fee from client,No,C004,2023-05-10
+T309,4567890123,2024-10-03,16:30,82000,Debit,1234567890,Yes Bank,India,Purchase of display units,No,C004,2023-05-10
+T310,4567890123,2024-10-05,13:00,5000,Debit,N/A,N/A,India,Lunch with potential investor,Yes,C004,2023-05-10
+T311,4567890123,2024-10-07,11:00,70000,Credit,3456789012,HDFC Bank,India,Advance for product launch,No,C004,2023-05-10
+T312,4567890123,2024-10-09,15:30,25000,Debit,9876543210,State Bank of India,India,Business trip - flight and hotel,No,C004,2023-05-10
+T313,4567890123,2024-10-12,12:00,110000,Credit,4567891230,ICICI Bank,India,Payment for online sales,No,C004,2023-05-10
+T314,4567890123,2024-10-15,14:45,45000,Debit,7890123456,Axis Bank,India,Monthly rent for showroom,No,C004,2023-05-10
+T315,4567890123,2024-10-18,09:15,4000,Debit,N/A,N/A,India,Taxi fare for supplier meeting,Yes,C004,2023-05-10
+T316,4567890123,2024-10-20,13:30,58000,Debit,5678901234,Kotak Mahindra Bank,India,Payment for imported goods,No,C004,2023-05-10
+T317,4567890123,2024-10-23,16:00,140000,Credit,8901234567,Punjab National Bank,India,Revenue from bulk order,No,C004,2023-05-10
+T318,4567890123,2024-10-27,10:30,20000,Debit,9012345678,Bank of Baroda,India,Trade show booth rental,No,C004,2023-05-10
+T319,4567890123,2024-11-01,12:00,85000,Credit,0123456789,Yes Bank,India,Payment for service contract,No,C004,2023-05-10
+T320,4567890123,2024-11-03,14:00,60000,Debit,1234567890,State Bank of India,India,Payment to supplier for components,No,C004,2023-05-10
+T321,4567890123,2024-11-05,11:45,6000,Debit,N/A,N/A,India,Hotel stay for industry conference,Yes,C004,2023-05-10
+T322,4567890123,2024-11-07,15:00,105000,Credit,4567891230,HDFC Bank,India,Revenue from product sales,No,C004,2023-05-10
+T323,4567890123,2024-11-10,13:15,45000,Debit,7890123456,Axis Bank,India,Monthly rent for showroom,No,C004,2023-05-10
+T324,4567890123,2024-11-12,09:00,7000,Debit,5678901234,ICICI Bank,India,Office cleaning service,No,C004,2023-05-10
+T325,4567890123,2024-11-15,14:30,90000,Credit,8901234567,Kotak Mahindra Bank,India,Payment from new retailer,No,C004,2023-05-10
+T326,4567890123,2024-11-18,16:00,68000,Debit,9012345678,Punjab National Bank,India,Payment for shop renovation,No,C004,2023-05-10
+T327,4567890123,2024-11-20,10:00,3500,Debit,N/A,N/A,India,Taxi fare for client visit,Yes,C004,2023-05-10
+T328,4567890123,2024-11-25,13:00,115000,Credit,0123456789,Bank of Baroda,India,Revenue from holiday sales,No,C004,2023-05-10
+T329,4567890123,2024-12-02,09:45,55000,Debit,1234567890,Yes Bank,India,Payment to supplier for stock,No,C004,2023-05-10
+T330,4567890123,2024-12-05,12:15,80000,Credit,3456789012,HDFC Bank,India,Client payment for custom order,No,C004,2023-05-10
+T331,4567890123,2024-12-07,15:00,45000,Debit,7890123456,Axis Bank,India,Monthly rent for showroom,No,C004,2023-05-10
+T332,4567890123,2024-12-10,11:00,2500,Debit,N/A,N/A,India,Business dinner with team,Yes,C004,2023-05-10
+T333,4567890123,2024-12-12,14:00,125000,Credit,4567891230,ICICI Bank,India,Revenue from export order,No,C004,2023-05-10
+T334,4567890123,2024-12-15,16:30,72000,Debit,5678901234,Kotak Mahindra Bank,India,Payment for new inventory,No,C004,2023-05-10
+T335,4567890123,2024-12-18,10:30,95000,Credit,8901234567,Punjab National Bank,India,Payment for annual contract,No,C004,2023-05-10
+T336,4567890123,2024-12-20,13:45,22000,Debit,9012345678,Bank of Baroda,India,Business travel - international,No,C004,2023-05-10
+T337,4567890123,2025-01-02,09:00,62000,Debit,0123456789,Yes Bank,India,Payment to supplier for packaging,No,C004,2023-05-10
+T338,4567890123,2025-01-05,12:00,100000,Credit,1234567890,State Bank of India,India,Revenue from online platform,No,C004,2023-05-10
+T339,4567890123,2025-01-07,15:30,45000,Debit,7890123456,Axis Bank,India,Monthly rent for showroom,No,C004,2023-05-10
+T340,4567890123,2025-01-10,10:15,4500,Debit,N/A,N/A,India,Taxi fare for warehouse visit,Yes,C004,2023-05-10
+T341,4567890123,2025-01-15,13:00,88000,Credit,4567891230,HDFC Bank,India,Payment for bulk delivery,No,C004,2023-05-10
+T342,4567890123,2025-01-20,16:00,78000,Debit,5678901234,ICICI Bank,India,New machinery for production,No,C004,2023-05-10
+T343,4567890123,2025-02-01,09:30,135000,Credit,8901234567,Kotak Mahindra Bank,India,Revenue from major client,No,C004,2023-05-10
+T344,4567890123,2025-02-05,14:00,50000,Debit,9012345678,Punjab National Bank,India,Payment to supplier for goods,No,C004,2023-05-10
+T345,4567890123,2025-02-10,15:00,45000,Debit,7890123456,Axis Bank,India,Monthly rent for showroom,No,C004,2023-05-10
+T346,4567890123,2025-02-15,11:30,75000,Credit,0123456789,Bank of Baroda,India,Client payment for services,No,C004,2023-05-10
+T347,4567890123,2025-03-01,12:00,7000,Debit,N/A,N/A,India,Business lunch with partners,Yes,C004,2023-05-10
+T348,4567890123,2025-03-05,13:15,98000,Credit,1234567890,Yes Bank,India,Revenue from new product line,No,C004,2023-05-10
+T349,4567890123,2025-03-10,14:30,63000,Debit,5678901234,ICICI Bank,India,Payment for shop fittings,No,C004,2023-05-10
+T350,4567890123,2025-03-15,10:00,45000,Debit,7890123456,Axis Bank,India,Monthly rent for showroom,No,C004,2023-05-10

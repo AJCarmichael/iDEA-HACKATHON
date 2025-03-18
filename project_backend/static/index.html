@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Stream</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .fraud {
+            background-color: #ffcccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Real-Time Transaction Monitor</h1>
+    <table id="transactionTable">
+        <thead>
+            <tr>
+                <th>Transaction ID</th>
+                <th>Date/Time</th>
+                <th>Amount (INR)</th>
+                <th>Transaction Type</th>
+                <th>Anomaly Score</th>
+                <th>Predicted Fraud</th>
+            </tr>
+        </thead>
+        <tbody id="transactionBody">
+        </tbody>
+    </table>
+
+    <script>
+        const tableBody = document.getElementById('transactionBody');
+        const eventSource = new EventSource('http://127.0.0.1:8000/stream_transactions');
+
+        eventSource.onmessage = function(event) {
+            const data = JSON.parse(event.data);
+            const row = document.createElement('tr');
+            row.className = data.predicted_fraud === 1 ? 'fraud' : '';
+            row.innerHTML = `
+                <td>${data.Transaction_ID}</td>
+                <td>${data.Date_Time}</td>
+                <td>${data.Amount_INR}</td>
+                <td>${data.Transaction_Type}</td>
+                <td>${data.anomaly_score.toFixed(2)}</td>
+                <td>${data.predicted_fraud}</td>
+            `;
+            tableBody.insertBefore(row, tableBody.firstChild); // Add new row at top
+            if (tableBody.children.length > 10) {
+                tableBody.removeChild(tableBody.lastChild); // Keep only 10 rows
+            }
+        };
+
+        eventSource.onerror = function() {
+            console.log("Error occurred in stream");
+            eventSource.close();
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "transaction": {
+    "Transaction ID": "T447",
+    "Account Number": "5678901234",
+    "Date": "2025-03-01",
+    "Time": "12:00",
+    "Amount (INR)": "100000",
+    "Transaction Type": "Debit",
+    "Recipient Account": "N/A",
+    "Recipient Bank": "N/A",
+    "Recipient Country": "India",
+    "Description": "Cash withdrawal for business needs",
+    "Cash Indicator": "Yes",
+    "Customer ID": "C005",
+    "Account Creation Date": "2023-06-15"
+  },
+  "xgboost_prediction": {
+    "is_suspicious": true,
+    "reason": "High cash amount detected"
+  },
+  "gemini_confirmation": {
+    "is_suspicious": "Yes",
+    "details": "Confirmed XGBoost finding: High cash amount detected. Matches mule patterns in metadata.",
+    "confidence": "Medium",
+    "recommendation": "Send to compliance team"
+  },
+  "timestamp": "2025-03-18 07:50:11"
+}

@@ -1,0 +1,26 @@
+{
+  "Customer ID": "C003",
+  "Profile Type": "Professional",
+  "Average Monthly Spending": "155666",
+  "Average Monthly Income": "273333",
+  "Spending Categories": "Business travel - flight tickets, Office furniture purchase, Payment to supplier for inventory, Business lunch with supplier, Monthly rent for warehouse, Payment to supplier for materials, Payment for factory maintenance, Office stationery bulk order, Equipment purchase for factory, Payment to supplier, Advance to supplier, Payment to supplier for raw materials, Equipment purchase, Marketing campaign expense, Business travel - hotel and flights, Office supplies, Taxi fare for site visit, Taxi fare for client pickup, Business lunch with team, Payment for factory repairs, Taxi fare for client meeting, Payment for machinery upgrade, Payment to vendor for machinery parts, Business lunch with client, Hotel stay for business trip",
+  "Income Sources": "Advance from new client, Client payment for project, Payment for large order, Payment for bulk shipment, Payment for delivered goods, Sale of finished goods, Sale of products, Payment for bulk order, Invoice cleared by retailer, Invoice payment from distributor, Payment received from client, Payment for product delivery, Client payment for services",
+  "Cash Usage": "3.21%",
+  "Recurring Payments": "210000 monthly",
+  "Risk Indicators": "Medium",
+  "Behavioral Patterns": "Occasional large transactions",
+  "2025-03-18T02:59:04.094906": {
+    "Gemini Insights": "Error retrieving insights"
+  },
+  "2025-03-18T03:09:07.543714": {
+    "Gemini Insights": "Based on the provided metadata, Customer C003 exhibits the following financial profile, behavior, and potential fraud risk:\n\n**Financial Profile:**\n\n* **High Net Worth:**  The customer has a significantly high average monthly income (273,333) and average monthly spending (155,666), indicating a substantial net worth.  The difference suggests significant savings or investment.\n* **Business Owner/Professional:** The \"Professional\" profile type and the nature of their spending and income sources strongly suggest they are a business owner or high-level professional.  Their income is derived from various business activities, including sales, project payments, and large orders.\n* **High Volume Transactions:** Both income and spending involve numerous transactions, reflecting significant business activity.\n* **Predominantly Electronic Transactions:** Low cash usage (3.21%) indicates a preference for digital transactions.\n\n**Financial Behavior:**\n\n* **High Spending Business:** Spending is concentrated on business-related activities (travel, supplies, equipment, rent, supplier payments, marketing).\n* **Regular Large Payments:**  The \"Occasional large transactions\" behavioral pattern, combined with the high average monthly spending and income, points to regular, significant financial flows related to their business.\n* **Consistent Recurring Expenses:**  The substantial recurring payments (210,000 monthly) suggest consistent, predictable operational expenses.  This could be rent, salaries, or other fixed costs.\n\n\n**Fraud Risk:**\n\n* **Medium Risk:** The metadata explicitly states a \"Medium\" risk indicator.  While the nature of the transactions appears legitimate given their business profile, the \"medium\" risk might stem from factors not detailed here (e.g., potential for invoice fraud,  supplier collusion, or money laundering, etc. that would need further investigation.)\n* **Need for Deeper Investigation:** The \"Medium\" risk necessitates further investigation.  The error in retrieving Gemini Insights prevents a more granular assessment.  Analyzing individual transactions and potentially cross-referencing with external data sources could improve risk assessment.\n* **Lack of Transparency:** The high value transactions and volume make monitoring this customer's account crucial.  Regular checks for inconsistencies and anomalies are necessary.\n\n\n**Overall:**\n\nCustomer C003 appears to be a high-net-worth individual with a legitimate business.  However, the medium risk rating and the high transaction volume warrant ongoing monitoring and deeper investigation to fully understand the nature of their business activities and mitigate potential fraud.  The error in retrieving Gemini Insights highlights a crucial need for improved data access and analysis to enhance the accuracy of the risk assessment."
+  },
+  "Mule Analysis": {
+    "2025-03-18 07:25:20": {
+      "mule_characteristics_detected": "No",
+      "details": "```json\n{\n  \"mule_characteristics_detected\": \"No\",\n  \"details\": \"The provided data shows a business account (C003) with a mix of credit and debit transactions that appear consistent with legitimate business activities. While there are some cash transactions (T203, T210), they are relatively small and consistent with incidental expenses.  There's no evidence of unusually large transactions, frequent transfers to unrelated accounts, or rapid movement of funds indicative of money laundering. The account has been open for a reasonable period.\",\n  \"severity\": \"Low\",\n  \"send_to_compliance_team\": \"No\"\n}\n```\n",
+      "severity": "N/A",
+      "send_to_compliance_team": "No"
+    }
+  }
+}
